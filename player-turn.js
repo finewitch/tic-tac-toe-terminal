@@ -34,7 +34,7 @@ export function playerTurn(input, player) {
   }
 
   if (draw) {
-    prompt(colors.red.bold, `Its a draw. Try again!`);
+    prompt(colors.cyan.bold, `Well played both. Its a draw. Try again!`);
     process.exit();
   }
 
